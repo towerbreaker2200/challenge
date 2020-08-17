@@ -1,5 +1,5 @@
 const API_KEY = "0fcb2504b3a443d9492a99c2e49c4ebe";
-const weatherapikey=${{secrets.WEATHER_API_KEY}};
+const weatherapikey:${{secrets.WEATHER_API_KEY}};
 const COORDS = "coords";
 const weather = document.querySelector(".js-weather");
 
